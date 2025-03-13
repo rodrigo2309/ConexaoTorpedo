@@ -1,0 +1,116 @@
+<div class="container my-4 p-4 bg-white shadow rounded">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <!-- <h2>pontaltech</h2> -->
+    <img src="../../../../favicon.png" alt="">
+    <span class="text-muted">Últimos 14 dias (18 nov - 01 dez de 2024)</span>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card mb-3">
+        <div class="card-body">
+          <h3 class="card-title">Resumo do período</h3>
+          <p>Disparos totais: <strong>205.000</strong></p>
+          <p>Disparos dentro da franquia: <strong>100.000</strong></p>
+          <p>Disparos excedentes: <strong>105.000</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <app-grafico></app-grafico>
+    </div>
+  </div>
+
+
+  <div class="card mb-3">
+    <div class="card-body">
+      <h3 class="card-title">Detalhamento diário</h3>
+      <table class="table table-bordered table-striped">
+        <thead class="table-light">
+          <tr>
+            <th>Dia</th>
+            <th>Dentro Franquia</th>
+            <th>Excedente</th>
+            <th>Acumulado Dia</th>
+            <th>Acumulado Mês</th>
+            <th>Custo Excedente</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>18 nov.</td>
+            <td>20.000</td>
+            <td>0</td>
+            <td>20.000</td>
+            <td>20.000</td>
+            <td>R$ 0,00</td>
+          </tr>
+          <tr>
+            <td>19 nov.</td>
+            <td>25.000</td>
+            <td>0</td>
+            <td>25.000</td>
+            <td>45.000</td>
+            <td>R$ 0,00</td>
+          </tr>
+          <tr>
+            <td>20 nov.</td>
+            <td>15.000</td>
+            <td>0</td>
+            <td>15.000</td>
+            <td>60.000</td>
+            <td>R$ 0,00</td>
+          </tr>
+          <tr>
+            <td>21 nov.</td>
+            <td>30.000</td>
+            <td>0</td>
+            <td>30.000</td>
+            <td>90.000</td>
+            <td>R$ 0,00</td>
+          </tr>
+          <tr>
+            <td>22 nov.</td>
+            <td>10.000</td>
+            <td>5.000</td>
+            <td>15.000</td>
+            <td>105.000</td>
+            <td>R$ 2.500,00</td>
+          </tr>
+          <tr>
+            <td>23 nov.</td>
+            <td>15.000</td>
+            <td>15.000</td>
+            <td>30.000</td>
+            <td>120.000</td>
+            <td>R$ 7.500,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card mb-3">
+        <div class="card-body">
+          <h3 class="card-title">Prévia de faturamento</h3>
+          <p>Franquia contratada: <strong>R$50.000,00</strong></p>
+          <p>Ferramenta gestão: <strong>R$30.000,00</strong></p>
+          <p>Disparos excedentes: <strong>R$52.500,00</strong></p>
+          <p><strong>Total: R$132.500,00</strong></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card mb-3">
+        <div class="card-body">
+          <h3 class="card-title">Meu contrato</h3>
+          <p>Franquia contratada: <strong>100.000 SMS</strong></p>
+          <p>Custo SMS excedente: <strong>R$0,50 / SMS</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
